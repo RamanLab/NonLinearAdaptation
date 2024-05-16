@@ -1,0 +1,20 @@
+function dydt=node3IFFN(t,y,u)
+Kab=14;
+Fa=4;
+Kba=10;
+Fb=4;
+Kca=8;
+Kcb=3.2;
+Kcd=6;
+Fc=2;
+Kdc=6;
+Fd=0.5;
+Kia=5;
+Fa=6;
+In=0.3;
+x_star=[0.4;0.64;0.5];
+dydt_1= Kia*u*(1-y(1))-Fa*y(1);
+dydt_2=Kba/(y(1)+1)-Fb*y(2);
+dydt_3=0.5+Kca*y(1)-Kcb*y(2)-2*y(3);   
+dydt=[dydt_1;dydt_2;dydt_3];
+end
