@@ -1,4 +1,5 @@
-tspan=[0 500];
+% Violation study for three node NFB. Figure 3
+span=[0 500];
 P=lhsdesign(11,1000);
 K_1=[];
 p=1;
