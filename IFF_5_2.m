@@ -1,4 +1,5 @@
 %% Another 5-node IFF module used for the simuation study regarding the retroactivity of IFF modules. Figure 8 of the main manuscript
+% Run the SIMULINK file MUL_IFF_NON_LIN.slx before proceeding.
 y0=100*lhsdesign(5,100);
 figure
 tspan=[0 10];
