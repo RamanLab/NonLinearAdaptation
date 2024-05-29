@@ -1,3 +1,5 @@
+% This code simulates the three-node coherent feedforward network for different initial conditions.
+
 tspan=[0 15];
 y0=30*lhsdesign(3,100);
 for k=1:1:100
