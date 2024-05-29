@@ -1,3 +1,4 @@
+% Run MUL_IFF_NON_LIN.slx before running this file
 out1=out;
 subplot(1,3,1)
 plot(out1.tout,out1.Input)
