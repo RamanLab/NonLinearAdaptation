@@ -1,3 +1,4 @@
+%% This code generates the the plots for 5 node IFF Figure 5
 y0=100*lhsdesign(5,100);
 figure
 tspan=[0 2];
