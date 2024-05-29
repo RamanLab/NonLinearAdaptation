@@ -1,3 +1,4 @@
+%% Another 5-node IFF module used for the simuation study regarding the retroactivity of IFF modules. Figure 8 of the main manuscript
 y0=100*lhsdesign(5,100);
 figure
 tspan=[0 10];
