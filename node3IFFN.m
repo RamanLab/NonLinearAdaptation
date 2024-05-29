@@ -13,8 +13,8 @@ Kia=5;
 Fa=6;
 In=0.3;
 x_star=[0.4;0.64;0.5];
-dydt_1= Kia*u*(1-y(1))-Fa*y(1);
-dydt_2=Kba/(y(1)+1)-Fb*y(2);
-dydt_3=0.5+Kca*y(1)-Kcb*y(2)-2*y(3);   
+dydt_1= Kia*u*(1-y(1))-Fa*y(1);  % u to A
+dydt_2=Kba/(y(1)+1)-Fb*y(2);   % A inhibits B
+dydt_3=0.5+Kca*y(1)-Kcb*y(2)-2*y(3);   % A activates C, B inhibis C Incoherency
 dydt=[dydt_1;dydt_2;dydt_3];
 end
